@@ -1,0 +1,112 @@
+/* Table styling */
+.rs-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.rs-table th, .rs-table td {
+    padding: 12px 15px;
+    border: 1px solid #ddd;
+    text-align: center;
+}
+
+/* Table header */
+.rs-table th {
+    background-color: #333;
+    color: white;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+/* Row hover effect */
+.rs-table tbody tr:hover {
+    background-color: #f1f1f1;
+}
+
+/* Body cell font */
+.rs-table td {
+    font-size: 14px;
+}
+
+/* Add rounded corners to the table */
+.rs-table {
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+/* Table alignment */
+.rs-table {
+    margin: 20px auto;
+    max-width: 1200px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+/* Container for buttons to align them side by side */
+.button-container {
+    display: flex;             /* Align buttons side by side */
+    gap: 10px;                 /* Space between the buttons */
+    margin-top: 20px;          /* Space above the button container */
+}
+
+/* Common button styles (Create and Export buttons) */
+.button {
+    padding: 12px 20px;        /* Padding for a large clickable area */
+    border: none;              /* Remove default border */
+    border-radius: 8px;        /* Rounded corners */
+    font-size: 16px;           /* Slightly larger font */
+    cursor: pointer;           /* Show hand cursor on hover */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Light shadow */
+    transition: background-color 0.3s ease;  /* Smooth hover transition */
+}
+
+/* Create Todo button styling */
+.create-todo-button {
+    background-color: #4CAF50; /* Green background */
+    color: white;              /* White text */
+}
+
+/* Export button styling */
+.export-button {
+    background-color: #2196F3; /* Blue background */
+    color: white;              /* White text */
+}
+
+/* Hover effects for both buttons */
+.button:hover {
+    filter: brightness(1.1);   /* Slightly brighten the button on hover */
+}
+
+/* Active button effect when clicked */
+.button:active {
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Smaller shadow */
+    transform: translateY(2px); /* Slight movement on click */
+}
+/* General button styling */
+.pagination-button {
+    background-color: #007bff; /* Blue background */
+    color: white; /* White text */
+    border: none; /* Remove default border */
+    border-radius: 5px; /* Rounded corners */
+    padding: 10px 20px; /* Padding around text */
+    margin: 5px; /* Margin between buttons */
+    font-size: 16px; /* Font size */
+    cursor: pointer; /* Pointer cursor on hover */
+    transition: background-color 0.3s; /* Smooth transition for background color */
+}
+
+.pagination-button:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+}
+
+.pagination-button:disabled {
+    background-color: #cccccc; /* Gray background when disabled */
+    cursor: not-allowed; /* Not allowed cursor */
+}
+
+.prev {
+    float: left; /* Align to the left */
+}
+
+.next {
+    float: right; /* Align to the right */
+}
+
